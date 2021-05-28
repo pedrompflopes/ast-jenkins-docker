@@ -1,7 +1,7 @@
 name: Update checkmarx scanner api
 on:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "*/10 * * * *"
 jobs:
   updateCheckmarxJenkins:
     runs-on: ubuntu-latest
