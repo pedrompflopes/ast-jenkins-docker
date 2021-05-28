@@ -21,5 +21,4 @@ jobs:
       - name: Build and push
         run: |
           docker build . --tag ghcr.io/pedrompflopes/ast-jenkins-docker:latest
-          docker run ghcr.io/pedrompflopes/ast-jenkins-docker:latest
           docker push ghcr.io/pedrompflopes/ast-jenkins-docker:latest
