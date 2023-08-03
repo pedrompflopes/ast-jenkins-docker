@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:2.336
 
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
